@@ -3,19 +3,20 @@
 # Kelas : Probstat F
 
 #3  A
-lambda = 4.5
-n = 6
+lambda <- 4.5
+n <- 6
 
-p = dpois(n, lambda)
+p <- dpois(n, lambda)
 p
 
 #3  B
-n1 = 356
+n1 <- 356
 hist(rpois(n1, lambda), main = "Histogram of Poisson")
 
 #3  C
+#Nilai distribusi Poisson tidak berubah.
 
 #3  D
-rataRata = var = lambda
+rataRata <- var <- lambda
 rataRata
 var
